@@ -1,0 +1,48 @@
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .brands-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .guitarCard{
+        align-items: center;
+    }
+    .pagination{
+        flex-direction: column;
+
+    }
+
+
+}
+
+.brand-card {
+    text-align: center;
+    /*padding: 1rem;*/
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 12px;*/
+    transition: all 0.2s ease;
+}
+
+
+.brand-image {
+    width: 150px;
+    max-height: 100px;
+    /*object-fit: contain;*/
+    margin-bottom: 0.5rem;
+    filter: grayscale(100%) brightness(0.7); /* make colored and black logos gray */
+    opacity: 0.6;
+}
+
+@media(max-width: 768px) {
+    .Ellipse img{
+        max-width: 400px;
+    }
+}
+
+
