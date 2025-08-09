@@ -24,5 +24,5 @@ Project Structure
  Getting Started
 1. Clone the repository
 2. Install dependencies using `npm install`
-3. Run the development server with `npm start`
+3. Run the development server with `npm run dev`
 
