@@ -1,12 +1,28 @@
-# React + Vite
+# Guitar Shop App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview
+This is a React-based guitar shop web application. It allows users to browse guitar brands, view models.
 
-Currently, two official plugins are available:
+Technologies Used
+- React.js for the frontend UI
+- Apollo Client for GraphQL data fetching
+- React Router for navigation
+- CSS Modules for styling
+- GraphQL as the API query language
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features Implemented
+- Display list of guitar brands
+- View details of selected guitar models
+- Responsive layout and design
+- Integration with a GraphQL API backend
 
-## Expanding the ESLint configuration
+Project Structure
+- `/src` — React components, pages, and styles
+- `/assets` — Images and static assets
+- `App.jsx` — Main app component and router setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Getting Started
+1. Clone the repository
+2. Install dependencies using `npm install`
+3. Run the development server with `npm start`
+
