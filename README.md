@@ -7,7 +7,6 @@ Technologies Used
 - React.js for the frontend UI
 - Apollo Client for GraphQL data fetching
 - React Router for navigation
-- CSS Modules for styling
 - GraphQL as the API query language
 
 Features Implemented
